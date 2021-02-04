@@ -17,10 +17,11 @@ const searchNabi = (nabi) => {
                    data.message = "ok"
                    data.nabi = {
                        nabi: results.name,
-                       ceramah: results.thn_kelahiran,
+                       lahir: results.thn_kelahiran,
 		       umur: results.usia,
-		       lahir: results.tmp,
-		       image: results.image_url
+		       tempat: results.tmp,
+		       image: results.image_url,
+		       kisah: results.description
                    }
 
                    data.creator = "Zhirrr"
